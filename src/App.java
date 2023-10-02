@@ -1,5 +1,7 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+import processing.core.*;
+
+public class App extends PApplet{
+    public static void main(String[] args)  {
+        PApplet.main("App");
     }
 }
